@@ -75,3 +75,57 @@
 }
 
 
+/* Pseudoelemntos */
+
+.serie-shippuden::before {
+    content: "🦅" ;
+}
+
+.serie-shippuden::after {
+    content: "🍖" ;
+}
+
+.serie-precio::before {
+    content:"💲";
+}
+
+.serie-precio::after {
+    content:"USD";
+    font-weight: bold;
+}
+
+.p-pseudoelementos::first-letter {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.p-pseudoelementos::first-line {
+    font-weight: bold;
+    font-size: 32px;
+    color: coral;
+}
+
+.p-pseudoelementos::selection {
+    color: coral;
+    background-color: darkgray;
+}
+
+.input-pseudoelementos::placeholder {
+    color: coral;
+
+}
+
+/* agrupar selectores */
+.form-agrupar-selectores input[type="text"],
+.form-agrupar-selectores input[type="email"],
+.form-agrupar-selectores textarea {
+    border-color: darkgreen;
+    border-width: 2px;
+    background-color: darkmagenta;
+    font-size: 20px;
+    display: block;
+    width: 300px;
+
+}
+
+
