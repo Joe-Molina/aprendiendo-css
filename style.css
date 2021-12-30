@@ -128,4 +128,72 @@
 
 }
 
+ /* 
+EL algoritmo de css: forma en la que el navegador aplica los estilos al documento
+1) la cascada
+2) la especificidad
+3) la herencia
+ */
+
+ /* La Cascada */
+
+/* la especificidad
+puedes ver la especificidad de los selectores poniendo el mouse encima
+
+etiquetas y pseudoelementos........0,0,0,1
+clases, atributos, pseudoclases....0,0,1,0
+identificadores....................0,1,0,0
+estilos en linea...................1,0,0,0
+!important..........rompe la especificidad
+*/
+
+/* practicando cascada y especificidad */
+
+/* proceso de cascada */
+
+blockquote {
+    background-color: darkorange !important;
+
+}
+
+blockquote#cita-marco.cita-marco {
+    background-color: indigo;
+}
+
+#cita-marco {
+    background-color: darkslategray;
+}
+
+.cita-marco {
+    background-color: lawngreen !important;
+    font-size: 22px;
+    border-style: dotted;
+    border-color: lightcoral;
+}
+
+blockquote.cita-marco {
+    background-color: darkred;
+}
+
+.cita-marco {
+    background-color: darkorchid;
+}
+
+.cita-marco cite {
+    background-color: lightcoral;
+    background-color: inherit;
+    font-size: 24px;
+    font-size: initial;
+    border-style: inherit;
+    border-color: inherit;
+}
+
+/* HERENCIAS
+no se hereda: bordes, fondos, 
+
+si se hereda: tipografia, tamañano, estilos,
+
+*/
+
+/* reseteo y normalizacion de estilos*/
 
