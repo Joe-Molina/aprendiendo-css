@@ -1,0 +1,20 @@
+/* box model: es la forma en que css ve a los elementos html
+los ve como si fueran cajas
+
+margin: pos el margen wey xd,
+border: lo que delimita cada uno de los elementos html
+padding: el relleno,son las distancias internas la distancia del borde al contenido
+contenido: contenido del elemento html
+
+dentro delmodelo de caja hay que considerar que una caja tiene 4 lados:
+1: arriba (top)
+2: derecha (right)
+3: abajo (bottom)
+4: izquierda (left)
+
+*/
+
+h1 {
+    border-width: 3px;
+    border-style: groove;
+}
