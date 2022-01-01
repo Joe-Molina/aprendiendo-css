@@ -14,7 +14,24 @@ dentro delmodelo de caja hay que considerar que una caja tiene 4 lados:
 
 */
 
+body {
+    margin: 0px;
+}
+
 h1 {
+    width: 400px;
+    height: 200px;
     border-width: 3px;
     border-style: groove;
+    border-color: chartreuse;
+    border: chartreuse 2px dashed;
+
+}
+
+.box-1, 
+.box-2 {
+    background-color: chocolate;
+    border: medium solid #454545;
+    padding: 10px;
+    margin: 20px 0px;
 }
