@@ -35,3 +35,16 @@ h1 {
     padding: 10px;
     margin: 20px 0px;
 }
+
+/* in block vs in line */
+
+.caja-linea,
+.caja-bloque {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 250px;
+    color: cornsilk;
+    padding: 12px;
+    border: solid medium green;
+    margin: 32px;
+}
