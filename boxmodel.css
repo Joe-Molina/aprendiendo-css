@@ -95,3 +95,14 @@ grid
     visibility: hidden;
     
 }
+
+/* propiedad overflow */
+
+.overflow {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
