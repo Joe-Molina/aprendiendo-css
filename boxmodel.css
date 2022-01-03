@@ -71,12 +71,14 @@ grid
 }
 
 .caja-none,
-.caja-linea-bloque {
+.caja-linea-bloque,
+.caja-hidden {
     background-color: aquamarine;
     padding: 0px 16px;
     color: rgb(0, 0, 0);
     width: 600px;
     height: 300px;
+    border: medium solid black;
 }
 
 .caja-linea-bloque {
@@ -85,4 +87,11 @@ grid
 
 .caja-none {
     display: none;
+}
+
+/* propiedad visibility */
+
+.caja-hidden {
+    visibility: hidden;
+    
 }
