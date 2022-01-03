@@ -48,3 +48,41 @@ h1 {
     border: solid medium green;
     margin: 32px;
 }
+
+/* propiedad Display
+inline
+block
+inline-block - se comporta como un elemento de linea pero modificar sus dimensiones(ancho y alto)
+none
+table
+list-item
+flex 
+grid
+*/
+
+.caja-bloque {
+    margin: 32px;
+    display: block;
+}
+
+.caja-linea {
+    margin: 32px;
+    display: inline;
+}
+
+.caja-none,
+.caja-linea-bloque {
+    background-color: aquamarine;
+    padding: 0px 16px;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: 300px;
+}
+
+.caja-linea-bloque {
+    display: inline-block;
+}
+
+.caja-none {
+    display: none;
+}
