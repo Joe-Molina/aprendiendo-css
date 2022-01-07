@@ -145,3 +145,21 @@ html {
 
 /* float and clear */
 
+.container-float {
+    background-color: royalblue;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* colapso de margenes verticales */
+
