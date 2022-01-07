@@ -54,6 +54,8 @@
     font-size: 18px;
 }
 
+
+
 .articulo-pseudoclases * {
     background-color: rgb(78, 11, 75);
 }
@@ -72,6 +74,10 @@
 
 .articulo-pseudoclases p:nth-of-type(3) {
     background-color: rgb(4, 0, 255);
+}
+
+.articulo-pseudoclases {
+    display: inline-block;
 }
 
 
@@ -190,17 +196,9 @@ blockquote.cita-marco {
 
 /* HERENCIAS
 no se hereda: bordes, fondos, 
-
 si se hereda: tipografia, tamañano, estilos,
-
 */
 
 /* reseteo y normalizacion de estilos*/
 
-/* prefijos de los navegadores 
-
-
-
-
-
-*/
+/* prefijos de los navegadores*/

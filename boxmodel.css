@@ -106,3 +106,42 @@ grid
     overflow: scroll;
     overflow: auto;
 }
+
+/* box sizing */
+
+.box-sizing-content {
+    background-color: blueviolet;
+    width: 500px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: thick solid black;
+}
+
+
+.container-col-3 {
+    background-color: burlywood;
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+}
+
+.container-col-3 > * {
+    width: 200px;
+    float: left;
+    border: thin solid red ;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* hacer reseteos para que todos sean border-box */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* float and clear */
+
