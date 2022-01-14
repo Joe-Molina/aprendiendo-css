@@ -62,3 +62,10 @@ BODY {
 .modal-window:target {
     display: block;
 }
+
+.box {
+    background-color: turquoise;
+    padding: -20px;
+    margin-top: -20px 20px;
+    margin-left: -30px;
+}
