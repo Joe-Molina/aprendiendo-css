@@ -46,3 +46,19 @@ BODY {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.modal-window {
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity:0.5;
+    display: none;
+}
+
+.modal-window:target {
+    display: block;
+}
