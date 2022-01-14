@@ -20,3 +20,28 @@ BODY {
     top: 0;
 }
 
+.hero-image {
+    background-color: brown;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide {
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.slide:nth-child(odd){
+    background-color: crimson;
+}
+
+.slide-title {
+    background-color: darkgray;
+    padding: 16px;
+    text-align: center;
+    position: sticky;
+    top:50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
